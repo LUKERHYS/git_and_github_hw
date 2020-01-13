@@ -1,13 +1,13 @@
 #####
-Luke Melvin - 13.01.2020
-#####
-So from my research, a .gitignore file is exactly as it sounds. It is a file containing lists of things for git to ignore when committing changes to your repo.
-#####
+#Luke Melvin - 13.01.2020
+#
+#So from my research, a .gitignore file is exactly as it sounds. It is a file containing lists of things for git to ignore when committing changes to your repo.
+#
 #After looking at some example .gitignore files it made more sense as to why you would want to ignore files in the first place.
-#####
-I added an example below of some compression file extensions for my repo to ignore. This example made a lot of sense to me as these are likely packages or bundles of files that have been pulled down to install on your machine rather than to have in your repo in compressed form and so no need to commit them to the repo.
-####
-As a small side note; the git ignore file must be created and committed before the files that it is to ignore or the git cache will overrule the gitignore file and continue to commit these files rather than ignore them. This can however be resolved if you were to clear the commit cache for those files.
+#
+#I added an example below of some compression file extensions for my repo to ignore. This example made a lot of sense to me as these are likely packages or #bundles of files that have been pulled down to install on your machine rather than to have in your repo in compressed form and so no need to commit them to #the repo.
+#
+#As a small side note; the git ignore file must be created and committed before the files that it is to ignore or the git cache will overrule the gitignore #file and continue to commit these files rather than ignore them. This can however be resolved if you were to clear the commit cache for those files.
 
 # Packages #
 ############
